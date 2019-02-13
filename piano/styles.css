@@ -1,0 +1,25 @@
+ul {
+  width : 50rem;
+  height: 16rem;
+  position: relative;
+  margin: 10em auto;
+}
+li {
+  text-align: center;
+  position: relative;
+  float: left;
+  list-style: none;
+  height: 16rem;
+  width: 4rem;
+  color: #fff;
+  background-color: #000;
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+}
+ul li {
+  border: solid 1px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
